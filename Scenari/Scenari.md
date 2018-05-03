@@ -39,18 +39,9 @@ In questa pagina deduce che può sostenere l'associazione tramite donazione ma n
 
 
 3)
-
+ 
 Un dottore è interessato a fare una domanda di assunzione nel centro di assistenza in questione.
 Dall'homepage sceglie di cliccare sul link "All people in alphabetic order" per dare uno sguardo alle competenze dei dottori che già lavorano nella struttura.
 Dopo aver cliccato sul primo dottore della lista, la scorre tramite il pulsante "next".
 Il dottore si fa un'idea delle competenze quindi per essere sicuro clicca su "Contact Us" per inviare una mail all'associazione e chiedere ulteriori informazioni.
-
-
-Cose da fare:
-Aggiungere "Who we are" come landmark
-Modificare i tre IDM  (C'è scritto sul P-IDM)
-
-
-
-
 
