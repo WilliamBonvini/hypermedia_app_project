@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - Small Business (https://startbootstrap.com/template-overviews/small-business)
+ * Start Bootstrap - Blog Post (https://startbootstrap.com/template-overviews/blog-post)
  * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-post/blob/master/LICENSE)
  */
 
 body {
@@ -14,17 +14,16 @@ body {
   }
 }
 
-logo{
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
 
 .col-lg-4{
     text-align: center
 }
 
 .card-body{
+    background-color: #a1c4e9;
+}
+
+.card-footer{
     background-color: #a1c4e9;
 }
 
@@ -35,6 +34,12 @@ logo{
 
 /* Makes default navbar links display block at choosen breakpoint and adjust styles to fit...
 */
+
+
+
+.col-sm-6 mb-4{
+    text-align: center;
+}
 @media (max-width: 62em) {
 	.navbar-nav {
 		padding-top: .425rem;
@@ -58,3 +63,4 @@ logo{
 		float: none;
 	}
 }
+
