@@ -58,3 +58,13 @@ logo{
 		float: none;
 	}
 }
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    background-color: #a1c4e9;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    
+}
