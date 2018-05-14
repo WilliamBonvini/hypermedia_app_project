@@ -12,7 +12,7 @@ Il padre vuole capire se il centro offre un servizio adatto ad assitere il figli
 
 AZIONE:
 in un momento libero visita il sito web dell'associazione.
-Dall'homepage clicca sul landmark Services e, dato che vuole trovare una sede di questo centro vicino al suo quartiere, seleziona dal menù a tendina su "All Locations for Services".
+Dall'homepage clicca sul landmark Services e, dato che vuole trovare una sede di questo centro vicino al suo quartiere, seleziona dal menù a tendina su "All Services by Locations".
 Dalla lista seleziona il suo quartiere e viene reindirizzato ai servizi offerti in questa struttura.
 
 
