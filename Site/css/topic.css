@@ -1,18 +1,19 @@
-/*!
- * Start Bootstrap - Blog Post (https://startbootstrap.com/template-overviews/blog-post)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-post/blob/master/LICENSE)
- */
-
+/*
+Needed to prevent the jumbotron to get hidden by the navbar
+*/
 body {
   padding-top: 54px;
 }
 
+/*
+When the screen width increases to 992px, the padding from the top increases a little
+*/
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
   }
 }
+
 
 
 .col-lg-4{
@@ -28,13 +29,14 @@ body {
 }
 
 
-/* Makes default navbar links display block at choosen breakpoint and adjust styles to fit...
-*/
-
-
 .col-sm-6 mb-4{
     text-align: center;
 }
+
+
+/* Makes default navbar links display block at choosen breakpoint and adjust styles to fit...
+*/
+
 @media (max-width: 62em) {
 	.navbar-nav {
 		padding-top: .425rem;
