@@ -1,17 +1,8 @@
 /*
-Needed to prevent the jumbotron to get hidden by the navbar
+Needed to prevent the jumbotron from getting hidden by the navbar
 */
 body {
   padding-top: 54px;
-}
-
-/*
-When the screen width increases to 992px, the padding from the top increases a little
-*/
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
 }
 
 
@@ -19,6 +10,10 @@ When the screen width increases to 992px, the padding from the top increases a l
     text-align: center;
 }
 
+
+/*
+Sets the color of the cards components and of the jumbotron.
+*/
 .card-body{
     background-color: #a1c4e9;
 }
@@ -36,28 +31,20 @@ Makes default navbar links display block at choosen breakpoint and adjust styles
 		padding-top: .425rem;
 		padding-left: 0.75rem;
 	}
-	.navbar-nav .nav-item {
-		float: none;
-	}
-	.navbar-brand {
-		float: right;
-	}
+
+	/*
+    By default, Bootstrap collapses (vertically stacks) the navbar at 768 pixels.
+    We want it to collapse at 992px(62em)
+    */
 	.navbar-brand,
 	.navbar-nav .nav-item {
 		display: block;
-	}
-	.navbar-nav .nav-item + .nav-item {
-		margin-left: 0;
-	}
-	.dropdown-menu {
-		position: relative;
-		float: none;
 	}
 }
 
 
 /* 
-Carousel control arrows:
+Carousel control arrows dimensions and style
 */
 .carousel-control-prev-icon, .carousel-control-next-icon {
     height: 50px;
@@ -128,3 +115,21 @@ Carousel control arrows:
         font-size: 2em;
     }
 } 
+
+
+/* In the Who We Are page, the title should decrease its size when the screen size gets too small */
+@media (max-width :450px){
+    #whowearetitle{
+        font-size: 3em;
+    }
+}
+
+
+/*
+When the screen width increases to 992px, the padding from the top increases a little
+*/
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}

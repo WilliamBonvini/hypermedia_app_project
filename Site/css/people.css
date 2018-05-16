@@ -1,24 +1,14 @@
 /*
-Needed to prevent the jumbotron to get hidden by the navbar
+Needed to prevent the jumbotron from getting hidden by the navbar
 */
 body {
   padding-top: 54px;
 }
 
+
 /*
-When the screen width increases to 992px, the padding from the top increases a little
+Sets the color of the cards components and of the jumbotron.
 */
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
-}
-
-
-
-.col-lg-4{
-    text-align: center
-}
 
 .card-body{
     background-color: #a1c4e9;
@@ -33,35 +23,36 @@ When the screen width increases to 992px, the padding from the top increases a l
 }
 
 
-.col-sm-6 mb-4{
-    text-align: center;
-}
 
-
-/* Makes default navbar links display block at choosen breakpoint and adjust styles to fit...
+/* Media queries that makes default navbar links display block at a choosen breakpoint (992px) and adjust styles to fit the screen size
 */
 
+/*62em=62*16px=992px*/
 @media (max-width: 62em) {
+    
+    /* fixes the padding of the landmarks when the navbar becomes a dropdown menu*/
 	.navbar-nav {
-		padding-top: .425rem;
+		padding-top: 0.425rem;
 		padding-left: 0.75rem;
 	}
-	.navbar-nav .nav-item {
-		float: none;
-	}
-	.navbar-brand {
-		float: right;
-	}
+    
+    /*
+    By default, Bootstrap collapses (vertically stacks) the navbar at 768 pixels.
+    We want it to collapse at 992px(62em)
+    */
 	.navbar-brand,
 	.navbar-nav .nav-item {
 		display: block;
-	}
-	.navbar-nav .nav-item + .nav-item {
-		margin-left: 0;
-	}
-	.dropdown-menu {
-		position: relative;
-		float: none;
-	}
+	} 
+}
+
+
+/*
+When the screen width increases to 992px, the padding from the top increases a little
+*/
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
 }
 
