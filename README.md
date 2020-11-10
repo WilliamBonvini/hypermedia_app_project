@@ -1,7 +1,5 @@
-# HypermediaApplication
-Hypermedia Project developed by Leonardo Barilani, William Bonvini and Matteo Frigerio.
-## Domande
-  - [x] Guided Tour Pattern: è necessario mettere GT sul P-IDM? Sì
-  - [x] Cardinalità su schemi
-  - [x] Significato croce? Appartiene ai Landmark?
-  
+## Project Description
+Website for a healthcare center for children with disabilities, as requested by the course.
+Project published to serve as a reference for other Polimi students.
+The Design Document and the Usability Study Report can be found at the folder Deliberables.
+Cheers!
